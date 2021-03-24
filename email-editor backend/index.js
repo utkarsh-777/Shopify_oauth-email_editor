@@ -70,7 +70,7 @@ const getCustomer = async(access_token,shop,body) => await axios(`https://${shop
   headers : {
     'X-Shopify-Access-Token': access_token
   },
-  //data:body
+  data:body
 })
 
 
